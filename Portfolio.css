@@ -1,0 +1,87 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+  background: linear-gradient(rgb(125, 13, 53), rgb(162, 104, 114));
+}
+header{
+ height: 90px;
+ background-color: rgba(235, 243, 244, 1);
+ position: relative;
+ font-family: "Comic Sans MS";
+ text-decoration: rgb(10, 10, 10);
+ }
+#top1{
+  width: auto;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-left:1%;
+  text-align: left;
+  font-size: 59px;
+
+}
+#top2{
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: right;
+  font-size: 30px;
+
+}
+main{
+
+  width: 100%
+
+}
+.info{
+
+  color: purple;
+  width: 45%;
+  height: 400px;
+  background: linear-gradient(to right,rgb(237, 237, 237),rgb(152, 152, 152));
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1.5%
+}
+
+h1{
+  width: 100%;
+  height: 10%;
+  background: linear-gradient(to bottom,rgb(201, 200, 201), grey);
+}
+h2{
+  width: 100%;
+  height: 10%;
+  background: linear-gradient(rgb(201, 200, 201), grey);
+}
+
+#projects{
+
+}
+section{
+  vertical-align: top;
+  height: 500px;
+  width:25%;
+  display: inline-block;
+  background-color: black;
+  margin-left: 2.5%;
+  background: linear-gradient(to right,rgb(237, 237, 237),rgb(152, 152, 152));
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+
+}
+footer{
+  width: 100%;
+  height: 10%;
+}
+table, th, td{
+  border: 1px solid black;
+  width: 50%;
+  height: 50%;
+}
+.logo{
+  margin-left:5%;
+}
