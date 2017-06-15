@@ -3,7 +3,7 @@
  padding: 0px;
 }
 body{
-  background: linear-gradient(rgb(125, 13, 53), rgb(162, 104, 114));
+  background: linear-gradient(rgb(61, 2, 23), rgb(162, 104, 114));
 }
 header{
  height: 90px;
@@ -80,4 +80,8 @@ footer{
 
 .logo{
   margin-left:5%;
+}
+address{
+  background-color: white;
+  text-align: center;
 }
